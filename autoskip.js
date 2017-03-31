@@ -1,9 +1,11 @@
-// Try to click "Skip intro" button in Netflix on regular intervals.
+///
+/// Try to click "skip intro" button in Netflix on regular intervals.
+///
 
-// DOM selector for the button.
+// DOM selector for the skip button.
 const BUTTON_SELECTOR = '#netflix-player > div.skip-credits-container-node > div > a'
 
-// Set the regular interval to try and click the button.
+// Set the interval.
 const CLICK_INTERVAL = 1000
 
 // Query the DOM for the button and click it if found.
@@ -12,5 +14,5 @@ function skipIntro() {
   if (skipButton) { skipButton.click() }
 }
 
-// Try to click "Skip intro" every two seconds.
+// Try to click "Skip intro" every interval.
 setInterval(skipIntro, CLICK_INTERVAL)
