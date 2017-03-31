@@ -9,7 +9,7 @@ Skip opening credits automatically using this Chrome Extension.
 
 ## To Do
 
-- Replace `setInterval` with an event listener (?) to detect the skip button.
+- Replace [`setInterval`][3] with an event listener (?) to detect the skip button.
 - Option to skip only once (e.g. if you rewind the video, don't skip again).
 - Option to skip either:
   - "previously on..."
@@ -25,6 +25,10 @@ All types of contributions are welcome! You can help with:
 - Grammar
 - Coding
 
-If you want to contribute code, please fork and pull request.
-For other contributions, open an issue.
+If you want to contribute code, please fork and [pull request][1].
+For other contributions, [open an issue][2].
 I'll try to answer as soon as possible.
+
+[1]: https://github.com/jmosouza/skipflix/pulls
+[2]: https://github.com/jmosouza/skipflix/issues
+[3]: https://github.com/jmosouza/skipflix/blob/master/autoskip.js
