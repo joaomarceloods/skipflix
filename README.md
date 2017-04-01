@@ -18,6 +18,22 @@ Skip opening credits automatically using this Chrome Extension.
   - opening credits
   - both (currently works like this)
 
+
+## How to test it:
+
+  ##### 1. Go to Google Chrome's settings
+
+  <img src="./img/step1.png" width="250" alt="Settings in menu"/>
+
+  ##### 2. Click Load Unpacked Extension and select the skipflix folder. Click OK
+
+  <img src="./img/step2.png" width="450" alt="Loading extension" />
+
+  ##### 3. Done! The extension will now be loaded on the browser and you can use it with any website by clicking the top right icon.
+
+  <img src="./img/step3.png" width="450" alt="Extension in the browser" />
+
+
 ## Contributions
 
 All types of contributions are welcome! You can help with:
