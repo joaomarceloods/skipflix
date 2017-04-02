@@ -1,4 +1,4 @@
-![Skipflix](https://cloud.githubusercontent.com/assets/5458658/24579883/8821f370-16d4-11e7-8da6-374d13220f5b.png)
+![Skipflix](img/logo.png)
 
 # Skipflix: Auto Skip Netflix Intros
 
