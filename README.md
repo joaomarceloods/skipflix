@@ -1,4 +1,4 @@
-![Skipflix](img/logo.png)
+<a align="center" href="#"><img width="100%" src="img/logo.png" alt="Skipflix logo"></a>
 
 # Skipflix: Auto Skip Netflix Intros
 
