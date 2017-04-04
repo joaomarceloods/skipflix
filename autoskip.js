@@ -7,7 +7,6 @@ MutatedNodes = n => n.addedNodes.forEach(checkNode);
 
 skipIntro = n => {
 	n.firstChild.click();
-	obs.disconnect();
 }
 
 const obs = new MutationObserver(m => m.map(MutatedNodes));
