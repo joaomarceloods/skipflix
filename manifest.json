@@ -6,6 +6,10 @@
   "description": "Skip opening credits automatically on Netflix.",
   "version": "1.0",
 
+  "browser_action": {
+    "default_icon": "icon48.png"
+  },
+
   "icons": {
     "16": "icon16.png",
     "48": "icon48.png",
@@ -14,7 +18,7 @@
 
   "content_scripts": [
     {
-      "matches": ["https://www.netflix.com/watch/*"],
+      "matches": ["https://www.netflix.com/*"],
       "js": ["autoskip.js"]
     }
   ]
