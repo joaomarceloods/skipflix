@@ -1,14 +1,18 @@
-checkNode = n => {
-	if (n.nodeType === 1 && n.matches('.skip-credits'))
-		skipIntro(n)
+
+// Send each DOM mutation through a filtering function.
+const obs = new MutationObserver(mutations => mutations.map(matchAddedNodes));
+
+// Send each added node through the matching and clicking function.
+matchAddedNodes = mutation => mutation.addedNodes.forEach(matchAndClick);
+
+// Try matching a node for the "skip" button and click on positive match.
+matchAndClick = node => {
+  if (node.nodeType === 1 && node.matches('.skip-credits'))
+    click(node)
 }
 
-MutatedNodes = n => n.addedNodes.forEach(checkNode);
+// Click the node.
+click = node => node.firstChild.click();
 
-skipIntro = n => {
-	n.firstChild.click();
-}
-
-const obs = new MutationObserver(m => m.map(MutatedNodes));
-
+// Observe the DOM for changes.
 obs.observe(document.documentElement, { childList: true, subtree: true });
