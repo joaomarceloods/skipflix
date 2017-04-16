@@ -1,44 +1,44 @@
 <a align="center" href="#"><img width="100%" src="img/logo.png" alt="Skipflix logo"></a>
 
-# Skipflix: Auto Skip Netflix Intros
+
+# Skipflix: Auto Skip Netflix Intro
 
 Bothered by having to click "skip intro" on Netflix?
 Skip opening credits automatically using this Chrome Extension.
 
+
 ## Done
 
-- Set an interval to detect the skip button and click it when found.
+- Click the "skip" button automatically
+- Swap `setInterval` with MutationObserver API
+
 
 ## To Do
 
-- Replace [`setInterval`][3] with an event listener (?) to detect the skip button.
-- Option to skip only once (e.g. if you rewind the video, don't skip again).
-- Option to skip either:
-  - "previously on..."
-  - opening credits
-  - both (currently works like this)
+- Option to skip only once (e.g. if you rewind the video, don't skip again)
+- Option to skip either recap, intro or both (currently skips both)
 
 
-## How to test it:
+## Testing
 
-  ##### 1. Go to Google Chrome's settings
+1\. Open Google Chrome's settings
 
-  <img src="./img/step1.png" width="250" alt="Settings in menu"/>
+<img src="./img/step1.png" width="250" alt="Settings in menu"/>
 
-  ##### 2. Click Load Unpacked Extension and select the skipflix folder. Click OK
+2\. Click "Load unpacked extension..." and select the project folder. Click "OK".
 
-  <img src="./img/step2.png" width="450" alt="Loading extension" />
+<img src="./img/step2.png" width="450" alt="Loading extension" />
 
-  ##### 3. Done! The extension will now be loaded on the browser and you can use it with any website by clicking the top right icon.
+3\. Done! The browser has loaded the extension -- the icon is at the top right corner.
 
-  <img src="./img/step3.png" width="450" alt="Extension in the browser" />
+<img src="./img/step3.png" width="450" alt="Extension in the browser" />
 
 
 ## Contributions
 
 All types of contributions are welcome! You can help with:
 
-- Design (would ❤️ a neat icon + cover on Chrome Web Store)
+- Design
 - Localization
 - Grammar
 - Coding
@@ -49,4 +49,3 @@ I'll try to answer as soon as possible.
 
 [1]: https://github.com/jmosouza/skipflix/pulls
 [2]: https://github.com/jmosouza/skipflix/issues
-[3]: https://github.com/jmosouza/skipflix/blob/master/autoskip.js
