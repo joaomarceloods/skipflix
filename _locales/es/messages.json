@@ -1,0 +1,8 @@
+{
+  "manifest_name": {
+    "message": "Skipflix: auto-salta la intro en Netflix"
+  },
+  "manifest_description": {
+    "message": "Salta los títulos de apertura automáticamente en Netflix."
+  }
+}
