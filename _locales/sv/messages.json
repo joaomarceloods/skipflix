@@ -1,0 +1,8 @@
+{
+  "manifest_name": {
+    "message": "Skipflix: auto-hoppa Netflix intro"
+  },
+  "manifest_description": {
+    "message": "Hoppa över öppnings titlar automatiskt på Netflix."
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "manifest_name": {
+    "message": "Skipflix: auto-pular abertura no Netflix"
+  },
+  "manifest_description": {
+    "message": "Pule os créditos iniciais automaticamente no Netflix."
+  }
+}
